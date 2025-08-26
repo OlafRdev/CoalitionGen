@@ -13,7 +13,7 @@ const createPartyForm = (i) => {
     <br>
     Color : <input type="color" id="color-${i}" name="color-${i}"><br><br>
     Party Name : <input type="text" id="name-${i}" name="name-${i}"><br><br>
-    Domestic Party Name : <input type="text" id="domn-${i}" name="domn-${i}"><br><br>
+    Domestic Party Name(optional) : <input type="text" id="domn-${i}" name="domn-${i}"><br><br>
     Abbreviation : <input type="text" id="abbr-${i}" name="abbr-${i}"><br><br>
     Leader : <input type="text" id="leader-${i}" name="leader-${i}"><br><br>
     Ideology : <br><br>
@@ -139,4 +139,5 @@ clearButton.addEventListener("click", () => {
     formCount = 1;
     form.reset();
     result.innerHTML = "";
+
 });
