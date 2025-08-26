@@ -1,1 +1,99 @@
-
+body {
+    font-family: Verdana;
+    font-size: 80%;
+  }
+  
+  table {
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    color: #202122;
+    direction: ltr;
+    padding: 0.2em 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+  }
+  table th {
+    font-weight: bold;
+    background-color: #eaecf0;
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+  }
+  table td {
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+    line-height: 1.625;
+  }
+  
+  main .ctable .prname {
+    color: 36c;
+  }
+  main .ctable .forname {
+    font-size: smaller;
+    font-style: italic;
+  }
+  
+  .ctrlbtn {
+    font-size: 200%;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .add {
+    background-color: green;
+  }
+  .add:hover {
+    background-color: darkgreen;
+  }
+  
+  .remove {
+    background-color: red;
+  }
+  .remove:hover {
+    background-color: darkred;
+  }
+  
+  .submitbutton {
+    background-color: royalblue;
+  }
+  .submitbutton:hover {
+    background-color: blue;
+  }
+  
+  .bar {
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    height: 1.15em;
+    position: relative;
+  }
+  
+  .barfill {
+    color: inherit;
+    width: 26%;
+    height: 100%;
+  }
+  
+  textarea {
+    min-height: 90px;
+    min-width: 240px;
+  }
+  
+  .ttext {
+    color: #3056a9;
+  }
+  
+  .dtext {
+    color: #202122;
+  }
+  
+  .clear {
+    background-color: darkviolet;
+  }
+  .clear:hover {
+    background-color: purple;
+  }
