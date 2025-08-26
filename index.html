@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoalitionGen</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+<body>
+    
+    <header>
+    <h1>CoalitionGen</h1>
+    
+    <p>Welcome! CoalitionGen is an app when you can generate an table of a political coalition. After you submit the form you can make a screenshot of your coalition. Make sure that JavaScript is enabled in your browser!</p>
+    <hr>    
+    </header>
+    <main>
+        <div class="ctable" id="ctable"></div>
+        <form>
+    <div id="forms">
+    <div id="party-1">
+    Color : <input type="color" id="color-1" name="color-1"><br><br>
+    Party Name : <input type="text" id="name-1" name="name-1" required><br><br>
+    Domestic Party Name : <input type="text" id="domn-1" name="domn-1"><br><br>
+    Abbreviation : <input type="text" id="abbr-1" name="abbr-1"><br><br>
+    Leader : <input type="text" id="leader-1" name="leader-1"><br><br>
+    Ideology : <br><br>
+    <textarea rows="5" cols="30" id="ideology-1" name="ideology-1"></textarea>
+    <br><br>
+    Political position : 
+    <select id="polpos-1" name="polpos-1">
+        <option></option>
+        <option>Big Tent</option>
+        <option>Syncretic</option>
+        <option>Far-left</option>
+        <option>Left-wing</option>
+        <option>Centre-left</option>
+        <option>Centre</option>
+        <option>Centre-right</option>
+        <option>Right-wing</option>
+        <option>Far-right</option>
+    </select>
+    <br><br>
+    MPs seats <input type="number" size="5" id="seats-1" name="seats-1" pattern="\d*" min="0"> / <input type="number" size="5" id="total-1" name="total-1" pattern="\d*" min="0"> in <input type="text" id="parliament-1" name="parliament-1"><br><br>
+    Other parliament house seats(optional) <input type="number" size="5" id="apseats-1" name="apseats-1" pattern="\d*" min="0"> / <input type="number" size="5" id="aptotal-1" name="aptotal-1" pattern="\d*" min="0"> in <input type="text" id="aparliament-1" name="aparliament-1"><br><br>
+    </div>
+    </div>
+    <button type="button" class="ctrlbtn add" id="add">+ Add</button>
+    <br><br>
+    <input type="submit" id="sendbutton" class="ctrlbtn submitbutton" value="✓ Sign a Coalition Agreement!">
+    <br><br>
+    <input type="reset" id="clearbutton" class="ctrlbtn clear" value="⌫ Clear">
+    </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
