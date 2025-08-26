@@ -1,0 +1,101 @@
+$tableHeader : #eaecf0;
+$tableCells : #f8f9fa;
+$linkColor : #3056a9;
+$tableTextColor : #202122;
+$tableBorder : 1px solid #a2a9b1;
+$padding : 0.2em 0.4em;;
+
+body{
+    font-family: Verdana;
+    font-size: 80%;
+}
+table{
+    border: $tableBorder;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    color: $tableTextColor;
+    direction:ltr;
+    padding: $padding;
+    margin-left: auto;
+    margin-right: auto;
+     font-size: 1rem;
+    th{
+    font-weight: bold;
+    background-color: $tableHeader;
+    border: $tableBorder;
+    padding: $padding;
+    }
+    td{
+        background-color: $tableCells;
+        border: $tableBorder;
+        padding: $padding;
+        line-height: 1.625;
+    }
+}
+main{
+    .ctable{
+         .prname{
+            color: 36c;
+         }
+         .forname{
+            font-size: smaller;
+            font-style: italic;
+         }
+    }
+}
+.ctrlbtn{
+font-size: 200%;
+border-radius: 5px;
+color:white;
+font-family: Arial;
+margin: 5px;
+padding:10px;
+}
+.add{
+    background-color:green;
+    &:hover{
+    background-color: darkgreen;
+    }
+}
+
+.remove{
+background-color:red;
+    &:hover{
+    background-color: darkred;
+}
+}
+
+.submitbutton{
+    background-color:royalblue;
+    &:hover{
+        background-color:blue;
+    }
+}
+
+.bar{
+    box-sizing: border-box;
+  border: 1px solid #aaa;
+  height: 1.15em;
+  position: relative;
+}
+.barfill{
+  color: inherit;
+  width: 26%;
+  height: 100%;
+}
+textarea{
+    min-height: 90px;
+    min-width: 240px;
+}
+.ttext{
+    color:$linkColor;
+}
+.dtext{
+    color:$tableTextColor;
+}
+.clear{
+    background-color: darkviolet;
+    &:hover{
+        background-color: purple;
+    }
+}
