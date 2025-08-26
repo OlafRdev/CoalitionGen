@@ -11,4 +11,5 @@ CoalitionGen is an online app made using HTML, JS, and SASS Framework for CSS.
 ## The idea
 
 
-CoalitionGen is slightly inspired by [Wikipedia](https://www.wikipedia.org/) pages of various political/electoral coalitions. Another inspiration was [TheAmeliaMay](https://github.com/TheAmeliaMay)'s [PartyBox]{https://theameliamay.github.io/PartyBox}. I've noticed that there was no tool online to make fictional political alliances, so I've decided to create one.
+CoalitionGen is slightly inspired by [Wikipedia](https://www.wikipedia.org/) pages of various political/electoral coalitions. Another inspiration was [TheAmeliaMay](https://github.com/TheAmeliaMay)'s [PartyBox](https://theameliamay.github.io/PartyBox). I've noticed that there was no tool online to make fictional political alliances, so I've decided to create one.
+
